@@ -9,9 +9,9 @@ class Pocsuite3 < Formula
   head "https://github.com/knownsec/pocsuite3.git", branch: "master"
 
   bottle do
-    root_url "https://github.com/13ph03nix/homebrew-tap/releases/download/pocsuite3-1.8.7"
-    sha256 cellar: :any,                 big_sur:      "70ba7844c960d8e6d914d2e3aab22e420bf176407e758686c6280798cae12a3b"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "70559fa99af97280236a3dd79c7cee635e87b97814c26633e7d5a8caa99bf665"
+    root_url "https://github.com/13ph03nix/homebrew-tap/releases/download/pocsuite3-1.8.6"
+    sha256 cellar: :any,                 big_sur:      "084d18a863769edf93e7e36ec7f6e4160f833a014b454a66c66ad70c29a10946"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "b838f10143e77e1e59555b08c23e9836b2b6cf24a5373e9bde8e08b164b3c9dc"
   end
 
   depends_on "rust" => :build # for cryptography
